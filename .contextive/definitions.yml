@@ -1,0 +1,18 @@
+contexts:
+  - name: Issue Tracking
+    domainVisionStatement: The Issue Tracking domain is responsible for managing the issues and bugs that are reported by users of the software. This includes creating, updating, and deleting issues, as well as assigning them to developers for resolution. The domain also tracks the status of each issue and provides reports on the progress of the development team.
+    terms:
+      - name: ITIL
+        definition: ITIL, or Information Technology Infrastructure Library, is a set of best practices for IT service management. It provides guidance on how to align IT services with the needs of the business and improve the overall quality of service.
+        examples:
+            - The development team is following ITIL practices to manage the issues reported by users.
+      - name: Issue
+        definition: An issue is a problem or bug that has been reported by a user of it-services. Each issue has a title, description, and status.
+        examples:
+          - The user reported an issue with the login page, where the password field is not accepting special characters.
+      - name: User
+        definition: A user is a person who interacts with our IT landscape and reports issues. Each user has a name, email address, and list of reported issues.
+        examples:
+            - The user is unable to access the application due to a network issue.
+            - The user called to say they want their computer fixed ASAP
+            - The user is reporting a bug in the software that is causing it to crash.
