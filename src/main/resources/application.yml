@@ -2,7 +2,7 @@ spring:
   application:
     name: issue-tracker
   datasource:
-    url: jdbc:postgresql://localhost:5432/issue-tracker
-    username: postgres
-    password: root
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
