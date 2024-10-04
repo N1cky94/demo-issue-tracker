@@ -1,5 +1,5 @@
 ### Project ###
-
+*.env
 
 ### Java / Maven / gradle ###
 target/
