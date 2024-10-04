@@ -19,7 +19,7 @@ class IssueCreateDtoTest {
         // then
         assertNotNull(issue);
         assertNull(issue.getId());
-        assertEquals("Severe breakdown", issue.getName());
+        assertEquals("Severe breakdown", issue.getTitle());
         assertEquals("Nick", issue.getAssignee());
         assertEquals(IssueType.SEVERE, issue.getType());
     }

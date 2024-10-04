@@ -8,7 +8,7 @@ public record IssueFetchAllDto(
     public static IssueFetchAllDto from(Issue issue) {
         return new IssueFetchAllDto(
                 issue.getId(),
-                issue.getName(),
+                issue.getTitle(),
                 issue.getType()
         );
     }

@@ -10,7 +10,7 @@ public class Issue {
     @Column(name = "id")
     private Long id;
     @Column(name = "title")
-    private String name;
+    private String title;
     @Column(name = "assignee")
     private String assignee;
     @Enumerated(EnumType.STRING)
@@ -20,8 +20,8 @@ public class Issue {
     public Issue() {
     }
     
-    public Issue(String name, String assignee, IssueType type) {
-        this.name = name;
+    public Issue(String title, String assignee, IssueType type) {
+        this.title = title;
         this.assignee = assignee;
         this.type = type;
     }
@@ -30,12 +30,12 @@ public class Issue {
         return id;
     }
     
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
     
-    public void setName(String title) {
-        this.name = title;
+    public void setTitle(String title) {
+        this.title = title;
     }
     
     public String getAssignee() {
