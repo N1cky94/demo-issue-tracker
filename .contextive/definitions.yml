@@ -1,7 +1,6 @@
 contexts:
   - name: Issue Tracking
-    domainVisionStatement: |
-      The Issue Tracking domain is responsible for managing the issues and bugs that are reported by users of the software. This includes creating, updating, and deleting issues, as well as assigning them to developers for resolution. The domain also tracks the status of each issue and provides reports on the progress of the development team.
+    domainVisionStatement: The Issue Tracking domain is responsible for managing the issues and bugs that are reported by users of the software. This includes creating, updating, and deleting issues, as well as assigning them to developers for resolution. The domain also tracks the status of each issue and provides reports on the progress of the development team.
     terms:
       - name: ITIL
         definition: ITIL, or Information Technology Infrastructure Library, is a set of best practices for IT service management. It provides guidance on how to align IT services with the needs of the business and improve the overall quality of service.
