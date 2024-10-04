@@ -18,7 +18,7 @@ public class IssueController {
     }
     
     @PostMapping
-    public void createIssue(IssueCreateDto issueCreateDto) {
+    public void createIssue(@RequestBody IssueCreateDto issueCreateDto) {
         Issue issue = issueCreateDto.toIssue();
         issueRepo.save(issue);
     }
