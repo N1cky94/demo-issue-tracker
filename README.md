@@ -19,6 +19,17 @@
 
 ## Installations
 
+### Environment Variables
+
+Make sure that in IntelliJ your environment variables are set.
+You can use the below string, and fill it in with your own credentials:
+```text
+DB_USER=user;DB_PASSWORD=psw;DB_URL=jdbc:postgresql://localhost:5432/db-name;DB_DATABASE=db-name
+```
+
+Also create a `.env` folder, with the same credentials, in the root of the project.
+This is needed to run the Docker containers.
+
 ### Java SE 17+
 
 You can use SDKman or chocolately to install Java SE 17+.
