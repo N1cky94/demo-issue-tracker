@@ -1,0 +1,13 @@
+### Get all issues
+GET http://localhost:8080/issues
+Accept: application/json
+
+### Post a new issue
+POST http://localhost:8080/issues
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Issue: It broke",
+  "severity": "medium"
+}
