@@ -1,7 +1,7 @@
 ---
-name: New Feature request for project
+name: New Feature
 about: Create a feature description as an issue for tracking new feature suggestions
-title: [FEATURE TYPE]: [FEATURE NAME / DESCRIPTION]
+title: "[FEATURE TYPE]: [FEATURE NAME / DESCRIPTION]"
 labels: 'enhancement'
 assignees: ''
 ---
