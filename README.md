@@ -72,6 +72,21 @@ docker compose down -v
 ```
 > The `-v` flag will delete all volumes.
 
+### Flyway Migrations
+
+Spring is set-up to run the migrations automatically.
+You can also migrate the database manually, by running the following commands:
+
+Are all migrations valid?
+```shell
+./mvnw clean flyway:validate
+```
+
+Run all migrations that haven't been added to the database yet.
+```shell
+./mvnw clean flyway:migrate
+```
+
 ## Running the project
 
 Before running the project, make sure you have the database up and running locally.
